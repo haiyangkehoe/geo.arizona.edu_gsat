@@ -37,7 +37,7 @@ nav a {
   padding: 12px 0px;
   transition: all 0.3s ease;
   background-color: white;
-  color: var(--myblue);
+  color: black;
   font-weight: bold;
   font-size: 100%;
   text-decoration: none;
@@ -49,7 +49,6 @@ nav a:hover {
 }
 
 nav a:link, nav a:visited {
-  color: white;
   font-weight: bold;
   text-decoration: none;
 }
