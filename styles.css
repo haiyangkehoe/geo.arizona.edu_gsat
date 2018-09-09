@@ -33,11 +33,11 @@ nav {
 nav a {
   float: left;
   text-align: center;
-  min-width: 20%;
-  padding: 12px 0;
+  width: 20%;
+  padding: 12px 0px;
   transition: all 0.3s ease;
-  background-color: var(--myyellow);
-  color: black;
+  background-color: white;
+  color: var(--myblue);
   font-weight: bold;
   font-size: 100%;
   text-decoration: none;
