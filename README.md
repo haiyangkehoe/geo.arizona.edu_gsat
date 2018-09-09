@@ -1,5 +1,5 @@
 # GSAT Website
-Haiyang Kehoe
+Haiyang Kehoe  
 Emily Rodriguez
 
 # index.html
