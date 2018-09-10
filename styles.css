@@ -24,6 +24,14 @@ nav a {
   font-weight: bold;
 }
 
+h  {
+  text-align: justify;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 p {
   text-align: justify;
   width: 90%;
