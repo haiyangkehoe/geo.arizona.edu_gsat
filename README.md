@@ -1,7 +1,7 @@
 # geo.arizona.edu_gsat
-Contributers:
-Haiyang Kehoe (HTML, CSS)  
-Emily Rodriguez (HTML, CSS, art)
+Contributers:  
+Haiyang Kehoe  
+Emily Rodriguez  
 
 # index.html
 09 September 2018: Created index.html, added bootstrap navbar and carousel.
