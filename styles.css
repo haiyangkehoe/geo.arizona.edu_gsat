@@ -24,6 +24,11 @@ nav a {
   font-weight: bold;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 h  {
   text-align: center;
   width: 90%;
