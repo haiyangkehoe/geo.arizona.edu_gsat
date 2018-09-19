@@ -29,6 +29,7 @@ nav a {
     margin-left: auto;
     margin-right: auto;
 }
+
 h  {
   text-align: center;
   width: 90%;
@@ -66,36 +67,51 @@ footer {
 }
 
 .sidenav {
-    width: 200px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 340px; 
-    left: 0;
-    background-color: var(--myblue);
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 5px;
-    padding-bottom: 5px;
+  height: 100%;
+  width: 0; /*Change in main.js*/
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--myblue);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 8px;
-    text-decoration: none;
-    font-size: 16px;
-    color: white;
-    display: block;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: rgba(255,255,255,.5);
+  display: block;
+  transition: 0.3s;
 }
 
+/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    text-decoration: underline;
-    color: var(--myred);
+    color: #f1f1f1;
 }
 
-.main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-    text-align: center;
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
+.sidenavbutton {
+  position: fixed;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#shift {
+    transition: margin-left .5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
