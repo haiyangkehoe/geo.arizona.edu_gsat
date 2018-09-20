@@ -75,7 +75,7 @@ footer {
   left: 0;
   background-color: var(--myblue);
   overflow-x: hidden;
-  padding-top: 60px;
+  padding-top: 110px;
   transition: 0.5s;
 }
 
@@ -87,32 +87,36 @@ footer {
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #fff;
 }
 
-/* Position and style the close button (top right corner) */
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
-.sidenavbutton {
+.sidenavbtn {
   position: fixed;
   font-size: 30px;
   cursor: pointer;
 }
 
-#shift {
-    transition: margin-left .5s;
+#movebtn {
+  transition: margin-left 0.5s;
+  position:absolute;
+  top: 50%;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+.sidenavbtn {
+  color: rgba(255,255,255,.5);
+  background-color: var(--myblue);
+  padding: 5px 10px 5px 10px;
+}
+
+.sidenavbtn:hover {
+  color: #fff;
 }

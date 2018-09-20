@@ -7,27 +7,31 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="icon" href="img/focalmech.png">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel="stylesheet" href="styles.css">
    </head>
 
    <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <b><a href="#sigeq">Significant Earthquakes</a></b>
-      <a href="#mexico">Sept. 8 2017, Chiapas</a>
-      <a href="#pedernales">April 16 2016, Pedernales</a>
-      <a href="#iquique">April 1 2014, Iquique</a>
-      <a href="#maule">Feb. 27 2010, Maule</a>
+      <b><a href="#sigeq" onclick="closeNav()">Significant Earthquakes</a></b>
+      <a href="#mexico" onclick="closeNav()">Sept. 8 2017, Chiapas</a>
+      <a href="#pedernales" onclick="closeNav()">April 16 2016, Pedernales</a>
+      <a href="#iquique" onclick="closeNav()">April 1 2014, Iquique</a>
+      <a href="#maule" onclick="closeNav()">Feb. 27 2010, Maule</a>
       <br>
-      <b><a href="#loceq">Local Earthquakes</a></b>
-      <a href="#nmaz">June 29 2014, SW Arizona Border</a>
-      <a href="#baja">April 4 2010, Baja, CA</a>
-      <a href="#gulf">Aug. 3 2009, Gulf of CA</a>
-      <b><a href="#other">Other</a></b>
-      <a href="#1887">1887 Earthquake</a>
+      <b><a href="#loceq" onclick="closeNav()">Local Earthquakes</a></b>
+      <a href="#nmaz" onclick="closeNav()">June 29 2014, SW Arizona Border</a>
+      <a href="#baja" onclick="closeNav()">April 4 2010, Baja, CA</a>
+      <a href="#gulf" onclick="closeNav()">Aug. 3 2009, Gulf of CA</a>
+      <br>
+      <b><a href="#other" onclick="closeNav()">Other</a></b>
+      <a href="#1887" onclick="closeNav()">1887 Earthquake</a>
    </div>
 
-   <div id="shift">
+   <div id="movebtn">
+      <span id="arrow" class="sidenavbtn" onclick="openCloseNav()">></span>
+   </div>
+
+   <div id="maincontent">
    <nav class="navbar navbar-expand-md navbar sticky-top navbar-dark">
       <a class="navbar-brand" href="#">
       <img src="img/focalmech-big.png" width="40">
@@ -65,8 +69,6 @@
    <header>
       <img src="img/gsat_final.png">
    </header>
-
-   <span class="sidenavbutton" onclick="openNav()">(+)</span>
 
    <div id="top" class="content">
    <body>
