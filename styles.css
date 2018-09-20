@@ -7,13 +7,25 @@
   font-family: georgia;
 }
 
-html {
-  height: 100%;
+footer {
+  text-align: center;
+  padding: 16px 0px 16px 0px;
+}
+
+h1, h2, p {
+  text-align: justify;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header img {
   width: 100%;
   padding: 16px 0px 16px 0px;
+}
+
+html {
+  height: 100%;
 }
 
 nav {
@@ -24,26 +36,6 @@ nav a {
   font-weight: bold;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h  {
-  text-align: center;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-p {
-  text-align: justify;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 p a:link, a:visited {
   color: black;
   text-decoration: underline;
@@ -51,11 +43,6 @@ p a:link, a:visited {
 
 p a:hover {
   color: var(--myred);
-}
-
-footer {
-  text-align: center;
-  padding: 16px 0px 16px 0px;
 }
 
 #carouselExampleIndicators {
@@ -69,6 +56,27 @@ footer {
 #carouselimg {
   background-color: rgb(0,0,0,0.5);
   padding: 15px 0px 0px 0px;
+}
+
+#movebtn {
+  transition: margin-left 0.5s;
+  position:absolute;
+  top: 50%;
+}
+
+.caption a.web:hover, .mail a:hover {
+  color: var(--myred);
+}
+
+.caption a.web:link, a.web:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sidenav {
@@ -108,15 +116,6 @@ footer {
   position: fixed;
   font-size: 30px;
   cursor: pointer;
-}
-
-#movebtn {
-  transition: margin-left 0.5s;
-  position:absolute;
-  top: 50%;
-}
-
-.sidenavbtn {
   color: rgba(255,255,255,.5);
   background-color: var(--myblue);
   padding: 5px 10px 5px 10px;
