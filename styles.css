@@ -66,6 +66,11 @@ footer {
   padding: 16px 0px 16px 0px;
 }
 
+#carouselimg {
+  background-color: rgb(0,0,0,0.5);
+  padding: 15px 0px 0px 0px;
+}
+
 .sidenav {
   height: 100%;
   width: 0; /*Change in main.js*/
