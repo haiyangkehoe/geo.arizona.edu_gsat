@@ -12,14 +12,14 @@
 
    <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <b><a href="#sigeq" onclick="closeNav()">Significant Earthquakes</a></b>
+      <b><a href="#significant" onclick="closeNav()">Significant Earthquakes</a></b>
       <a href="#mexico" onclick="closeNav()">Sept. 8 2017, Chiapas</a>
       <a href="#pedernales" onclick="closeNav()">April 16 2016, Pedernales</a>
       <a href="#iquique" onclick="closeNav()">April 1 2014, Iquique</a>
       <a href="#maule" onclick="closeNav()">Feb. 27 2010, Maule</a>
       <br>
-      <b><a href="#loceq" onclick="closeNav()">Local Earthquakes</a></b>
-      <a href="#nmaz" onclick="closeNav()">June 29 2014, SW Arizona Border</a>
+      <b><a href="#local" onclick="closeNav()">Local Earthquakes</a></b>
+      <a href="#border" onclick="closeNav()">June 29 2014, SW Arizona Border</a>
       <a href="#baja" onclick="closeNav()">April 4 2010, Baja, CA</a>
       <a href="#gulf" onclick="closeNav()">Aug. 3 2009, Gulf of CA</a>
       <br>
@@ -57,6 +57,9 @@
                </div>
             </li>
             <li class="nav-item">
+               <a class="nav-link" href="photos">Photos</a>
+            </li>
+            <li class="nav-item">
                <a class="nav-link" href="prospectives">Prospective Students</a>
             </li>
             <li class="nav-item">
@@ -73,11 +76,12 @@
    <div id="top" class="content">
    <body>
       <div class="main">
-      <div id="sigeq">
-         <p class="h1" align="center">Significant Earthquakes</p>
+      <div id="significant">
+         <h1 align="center">Significant Earthquakes</h1>
+         <br>
       </div>
       <div  id="mexico">
-         <p class="h2"> 8 September 2017, Chiapas, Mexico Earthquake </p>
+         <h2 align="center"> 8 September 2017, Chiapas, Mexico Earthquake </h2>
          <p> The <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us2000ahv0#executive">8 September 2017 
             Mexico earthquake (M 8.2)</a> occurred near the Middle America Trench, where the Cocos and North American 
             plates converge. The normal faulting, intermediate depth earthquake occurred at a depth of 47.4 km (USGS), 
@@ -107,7 +111,7 @@
          </p>
       </div>
       <div  id="pedernales">
-         <p class="h2" align="center">16 April 2016, Pedernales, Ecuador</p>
+         <h2 align="center">16 April 2016, Pedernales, Ecuador</h2>
          <p> On April 16, 2016 a <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us20005j32#executive"> 
             magnitude 7.8 earthquake</a> occured just offshore of Pedernales, Ecuador. The event was a shallow, 20.6 km
             depth, thrust which occurred at the interface between the subducting Nazca plate and upper
@@ -123,7 +127,7 @@
          </p>
       </div>
       <div  id="iquique">
-         <p class="h2" align="center">1 April 2014, Iquique, Chile</p>
+         <h2 align="center">1 April 2014, Iquique, Chile</h2>
          <p> A <a href="https://earthquake.usgs.gov/earthquakes/eventpage/usc000nzvd#executive">M8.2 earthquake</a>
             occured on April 1, 2014 off the shore of Iquique, Chile. This event filled in a major seismic gap in 
             northern Chile which last ruptured as an estimated M8.8 in 1877.
@@ -135,9 +139,9 @@
          <p> Seismograms of the event recorded by the Tucson seismic station (TUC).
          </p>
       </div>
-      <div  id="maule">
-         <p class="h2" align="center">27 February 2010, Maule, Chile</p>
-         <img class="center" src="img/maule_map.jpg" class="class="rounded mx-auto d-block">
+      <div id="maule">
+         <h2 align="center">27 February 2010, Maule, Chile</h2>
+         <img class="center" src="img/maule_map.jpg">
          <p>The <a href="https://earthquake.usgs.gov/earthquakes/eventpage/official20100227063411530_30#executive">
             February 27, 2010 Earthquake</a> (Mw=8.8) occurred along the Chile trench where the Nazca Plate is subducting
             beneath the South America Plate. The earthquake ruptured a portion of the plate boundary that previously 
@@ -156,17 +160,17 @@
          <p> Seismograms from Arizona
          </p>
       </div>
-      <div id="loceq">
-         <p class="h1" align="center">Local Earthquakes (Tucson)</p>
+      <div id="local">
+         <h1 align="center">Local Earthquakes (Tucson)</h1>
+         <br>
       </div>
-      <div  id="nmaz">
-         <p class="h2" align="center">29 June 2014, M5.2 Southeast New Mexico-Arizona Border
-         </p>
+      <div  id="border">
+         <h2 align="center">29 June 2014, M5.2 Southeast New Mexico-Arizona Border</h2>
          <p> For detailed information about this event, please refer to the following:<br>
             <a href="https://earthquake.usgs.gov/earthquakes/eventpage/usc000rnfe#executive">The USGS Event Page</a><br>
             <a href="http://www.azgs.az.gov/news_releases2014.shtml#june29">The AZGS Press Release</a><br> 
          </p>
-         <img class="center" src="img/eastAZ_seismograms.jpg" width="70%;" class="class="rounded mx-auto d-block">
+         <img class="center" src="img/eastAZ_seismograms.jpg" width="70%;">
          <p>Seismograms: Station Tucson (TUC) 
          </p>
          <img class="center" src="img/eastAZ_NA_seismograms.jpg" width="70%;" class="class="rounded mx-auto d-block">
@@ -176,9 +180,9 @@
          <p> Aftershocks Recorded at Station Tucson (TUC)
          </p>
       </div>
-      <div  id="baja">
-         <p class="h2" align="center"> 4 April 2010, Baja California </p>
-         <img class="center" src="img/baja2010_map.jpg" class="class="rounded mx-auto d-block"> <br><br>
+      <div id="baja">
+         <h2 align="center"> 4 April 2010, Baja California </h2>
+         <img class="center" src="img/baja2010_map.jpg"><br><br>
          <p> On April 4, 2010 at 3:40 pm Tucson time a magnitude 7.2 earthquake occurred in Baja California,
             approximately 400 km west of Tucson. The event was felt with an intensity of II and III (Modified Mercalli Scale)
             in the Tucson and Phoenix areas. It took the initial P wave a little over one minute to travel from 
@@ -195,24 +199,23 @@
             collaborative project with the University of Arizona, Arizona State University, and Northern Arizona 
             University and funded by FEMA.
          </p>
-         <img class="center" src="img/lagunaSaladaFaultPLKLabeled.jpg" class="rounded mx-auto d-block">
+         <img class="center" src="img/lagunaSaladaFaultPLKLabeled.jpg">
          <p>An aerial view looking north of the south end of the Laguna Salada Fault - the location of 
             the 7.2 Mw April 4, 2010 earthquake (Photo credit: Peter L. Kresan)
          </p>
-         <img class="center" src="img/baja_tucson_seismic.jpg" width="40%;" class="rounded mx-auto d-block">
+         <img class="center" src="img/baja_tucson_seismic.jpg" width="40%;">
          <p>Seismogram Station Tucson (TUC)
          </p>
-         <img class="center" src="img/baja_seismograms.jpg"  class="rounded mx-auto d-block">
+         <img class="center" src="img/baja_seismograms.jpg">
          <p>Seismograms Arizona Broadband Seismic Network
          </p>
-         <img class="center" src="img/baja_comparison.jpg" width="40%;"  class="rounded mx-auto d-block">
+         <img class="center" src="img/baja_comparison.jpg" width="40%">
          <p>Station TUC Seismograms for the August 3, 2009 and April 4, 2010 earthquakes
          </p>
       </div>
       <div  id="gulf">
-         <p class="h2" align="center">3 August 2009, Gulf of California
-         </p>
-         <img class="center" src="img/gulfCali2009_map.jpg"  class="rounded mx-auto d-block"><br>
+         <h2 align="center">3 August 2009, Gulf of California</h2>
+         <img class="center" src="img/gulfCali2009_map.jpg"><br>
          <p>A series of earthquakes occurred on August 3, 2009 in the Gulf of California, the largest of which 
             was felt in the Tucson and Phoenix area of southern Arizona. The largest event, a magnitude 6.9 occurred
             at 10:59 am Tucson time. It took the initial P wave a little over one minute to travel from the source 
@@ -236,19 +239,19 @@
             purchased by the Arizona Geological Survey as part of a collaborative project with the University of 
             Arizona, Arizona State University and Northern Arizona University and funded by FEMA.
          </p>
-         <img class="center" src="img/gulfCali_seismograms.jpg" width=70%;" class="class="rounded mx-auto d-block">
+         <img class="center" src="img/gulfCali_seismograms.jpg" width=70%;">
          <p>Seismograms Arizona Broadband Seismic Network
          </p>
-         <img class="center" src="img/california_lp.gif" width="70%;" class="rounded mx-auto d-block">
+         <img class="center" src="img/california_lp.gif" width="70%;">
          <p> Seismograms Station Tucson (TUC)
          </p>
       </div>
       <div id="other">
-         <p class="h1" align="center">Other Earthquakes</p>
+         <h1 align="center">Other Earthquakes</h1>
+         <br>
       </div>
         <div  id="1887">
-         <p class="h2" align="center">The 1887 Great Sonoran Earthquake
-         </p>
+         <h2 align="center">The 1887 Great Sonoran Earthquake</h2>
          <p><b> Compiled references by Norm Meader:</b> </p>
          <p class="sideheading"><strong>Abstracts</strong></p>
          <p>Bull, W. B., S. S. Calvo, P. A. Pearthree, and J. Quade, <a href="abstracts/Bull_et_al_1981.pdf">
@@ -433,9 +436,9 @@
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
          <script src="main.js"></script>
       </body>
-         
+
       <footer>
-         <a href="http://github.com/haiyangkehoe/geo.arizona.edu_gsat"><img src="img/GitHub-Mark-120px-plus.png" alt="GitHub" style="width:32px;height:32px;"></a>
+         <a href="https://www.geo.arizona.edu/"><img src="img/uageo_logo.png" style="width: 150px;"></a>
       </footer>
 
    </div>

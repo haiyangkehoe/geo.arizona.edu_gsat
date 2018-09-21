@@ -7,16 +7,20 @@
   font-family: georgia;
 }
 
+a:link, a:visited {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--myred);
+  font-weight: bold;
+}
+
 footer {
   text-align: center;
   padding: 16px 0px 16px 0px;
-}
-
-h1, h2, p {
-  text-align: justify;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 header img {
@@ -36,13 +40,15 @@ nav a {
   font-weight: bold;
 }
 
-p a:link, a:visited {
-  color: black;
-  text-decoration: underline;
+nav a:link {
+  text-decoration: none;
 }
 
-p a:hover {
-  color: var(--myred);
+p {
+  text-align: justify;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #carouselExampleIndicators {
@@ -62,15 +68,6 @@ p a:hover {
   transition: margin-left 0.5s;
   position:absolute;
   top: 50%;
-}
-
-.caption a.web:hover, .mail a:hover {
-  color: var(--myred);
-}
-
-.caption a.web:link, a.web:visited {
-  color: black;
-  text-decoration: underline;
 }
 
 .center {
