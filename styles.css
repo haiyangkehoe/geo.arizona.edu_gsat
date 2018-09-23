@@ -71,9 +71,9 @@ p {
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sidenav {
@@ -98,7 +98,7 @@ p {
 }
 
 .sidenav a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .sidenav .closebtn {
@@ -120,4 +120,16 @@ p {
 
 .sidenavbtn:hover {
   color: #fff;
+}
+
+.modal {
+  position: fixed;
+}
+
+.card {
+  cursor: pointer;
+}
+
+p.card-text {
+  text-align: center;
 }
