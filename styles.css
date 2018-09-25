@@ -53,7 +53,11 @@ p {
 }
 
 #carouselExampleIndicators {
-  padding: 20px 0px 20px 0px;
+  max-width: 700px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 0px 0px;
   background-color: black;
 }
 
@@ -117,7 +121,18 @@ p {
 
 .modal {
   position: fixed;
-  background-color: black;
+  background-color: rgb(0,0,0,0.5);
+}
+
+.modal-dialog {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 90vw;
+  height: 90vh;
 }
 
 .card {
@@ -129,9 +144,14 @@ p.card-text {
 }
 
 .carousel-caption {
-  background-color: rgb(0,0,0,0.5);
+  color: black;
+  background-color: rgb(255,255,255,0.7);
   padding: 16px 0px 0px 0px;
   bottom: 20px;
+}
+
+.carousel-inner {
+  background-color: black;
 }
 
 .carousel-inner img {
@@ -141,4 +161,8 @@ p.card-text {
 
 .carousel-indicators {
   bottom: -8px;
+}
+
+.carousel-indicators li {
+  background-color: rgb(255,255,255,0.7);
 }
