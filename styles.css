@@ -105,6 +105,12 @@ p.card-text {
   margin-right: auto;
 }
 
+#map {
+  text-align: center;
+  height: 400px;  /* The height is 400 pixels */
+  width: 80%;  /* The width is the width of the web page */
+}
+
 .modal {
   position: fixed;
   background-color: rgb(0,0,0,0.5);
