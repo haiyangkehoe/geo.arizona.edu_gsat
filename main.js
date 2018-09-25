@@ -5,11 +5,11 @@ function openCloseNav() {
   if (hpos == 0) {
     document.getElementById("mySidenav").style.width = "250px";
     movebtn.style.marginLeft = "250px";
-    document.getElementById("arrow").textContent="<";
+    document.getElementById("arrow").textContent="–";
   } else {
     document.getElementById("mySidenav").style.width = "0";
     movebtn.style.marginLeft = "0";
-    document.getElementById("arrow").textContent=">";
+    document.getElementById("arrow").textContent="+";
   }
 }
 
@@ -17,7 +17,7 @@ function openCloseNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("movebtn").style.marginLeft = "0";
-    document.getElementById("arrow").textContent=">";
+    document.getElementById("arrow").textContent="+";
 }
 
 /* Sticky navbar anchor offset */
