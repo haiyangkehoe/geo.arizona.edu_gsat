@@ -52,6 +52,10 @@ p {
   margin-right: auto;
 }
 
+p.card-text {
+  text-align: center;
+}
+
 #carouselExampleIndicators {
   max-width: 700px;
   width: 90%;
@@ -67,10 +71,54 @@ p {
   top: 50%;
 }
 
+.card {
+  cursor: pointer;
+}
+
+.carousel-caption {
+  color: black;
+  background-color: rgb(255,255,255,0.7);
+  padding: 16px 0px 0px 0px;
+  bottom: 20px;
+}
+
+.carousel-indicators {
+  bottom: -8px;
+}
+
+.carousel-indicators li {
+  background-color: rgb(255,255,255,0.7);
+}
+
+.carousel-inner {
+  background-color: black;
+}
+
+.carousel-inner img {
+  height: 70vh;
+  object-fit: contain;
+}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.modal {
+  position: fixed;
+  background-color: rgb(0,0,0,0.5);
+}
+
+.modal-dialog {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 90vw;
+  height: 90vh;
 }
 
 .sidenav {
@@ -117,52 +165,4 @@ p {
 
 .sidenavbtn:hover {
   color: #fff;
-}
-
-.modal {
-  position: fixed;
-  background-color: rgb(0,0,0,0.5);
-}
-
-.modal-dialog {
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 90vw;
-  height: 90vh;
-}
-
-.card {
-  cursor: pointer;
-}
-
-p.card-text {
-  text-align: center;
-}
-
-.carousel-caption {
-  color: black;
-  background-color: rgb(255,255,255,0.7);
-  padding: 16px 0px 0px 0px;
-  bottom: 20px;
-}
-
-.carousel-inner {
-  background-color: black;
-}
-
-.carousel-inner img {
-  height: 70vh;
-  object-fit: contain;
-}
-
-.carousel-indicators {
-  bottom: -8px;
-}
-
-.carousel-indicators li {
-  background-color: rgb(255,255,255,0.7);
 }
