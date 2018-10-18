@@ -1,5 +1,0 @@
-ErrorDocument 404 https://www.geo.arizona.edu/gsat/404
-DirectoryIndex home.html
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
