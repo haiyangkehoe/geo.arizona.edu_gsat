@@ -76,6 +76,11 @@ p.gm-style-pbt {
   width: 90%;  /* The width is the width of the web page */
 }
 
+#error img {
+  width: 100%;
+  padding: 0px;
+}
+
 #movebtn {
   transition: margin-left 0.5s;
   position:absolute;
