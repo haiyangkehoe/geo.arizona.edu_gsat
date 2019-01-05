@@ -52,6 +52,13 @@ p {
   margin-right: auto;
 }
 
+h3 {
+  text-align: justify;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 p.card-text {
   text-align: center;
 }
@@ -85,6 +92,34 @@ p.gm-style-pbt {
   transition: margin-left 0.5s;
   position:absolute;
   top: 50%;
+}
+
+.btn {
+  border-radius: 4px;
+  color: white;
+  background-color: green;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  border: 2px solid green;
+  color: green;
+  background: white;
+}
+
+.contact {
+  background-color: orange;
+}
+
+.contact:hover{
+  border: 2px solid orange;
+  color: orange;
 }
 
 .card {
@@ -144,22 +179,24 @@ p.gm-style-pbt {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: var(--myblue);
+  color: var(--myred);
+  background-color: white;
   overflow-x: hidden;
   padding-top: 110px;
   transition: 0.5s;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 20px;
   text-decoration: none;
-  color: rgba(255,255,255,.5);
+  color: var(--myblue);
   display: block;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .sidenav a:hover {
-  color: #fff;
+  color: var(--myred);
 }
 
 .sidenav .closebtn {
@@ -168,17 +205,19 @@ p.gm-style-pbt {
   right: 15px;
   font-size: 30px;
   margin-left: 50px;
+  cursor: pointer;
 }
 
 .sidenavbtn {
   position: fixed;
   font-size: 30px;
   cursor: pointer;
-  color: rgba(255,255,255,.5);
-  background-color: var(--myblue);
-  padding: 5px 15px 5px 15px;
+  color: var(--myblue);
+  padding: 5px 10px 5px 10px;
 }
 
 .sidenavbtn:hover {
-  color: #fff;
+  color: var(--myred);
+  cursor: pointer;
 }
+

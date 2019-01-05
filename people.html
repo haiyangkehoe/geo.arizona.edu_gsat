@@ -55,13 +55,25 @@
      <a href="home">
       <img src="img/gsat_final.png">
      </a>
-   </header>
+         <div id="mySidenav" class="sidenav">
+           <p>&nbsp;Jump to...</p>
+           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <a href="#faculty" onclick="closeNav()">Faculty</a>
+           <a href="#researchers" onclick="closeNav()">Researchers</a>
+           <a href="#students" onclick="closeNav()">Students</a>
+           <a href="#alumni" onclick="closeNav()">Alumni</a>
+         </div>
 
+         <div id="movebtn">
+            <span id="arrow" class="sidenavbtn" onclick="openCloseNav()">(+)</span>
+         </div>
+
+   </header>
    <div class="container">
       <body>
          <h1 align="center">People</h1>
          <p>The Global Seismology and Tectonics Group at the University of Arizona consists of three faculty members, Susan Beck, Eric Kiser, and George Zandt, and an associated research group that normally consists of 1 post-doc and 4-8 graduate students, as well as undergraduate students and collaborating students from other groups in the Department of Geosciences.</p>
-         <h2 align="center">Faculty</h2>
+         <h2 id="faculty" align="center">Faculty</h2>
          <div class="center">
          <div class="row" align="center">
             <div class="col-md-6">
@@ -90,7 +102,7 @@
          </div>
          <br> 
          <br> 
-         <h2 align="center">Researchers</h2>
+         <h2 id="researchers" align="center">Researchers</h2>
          <div class="thumbnail">
          <br>
             <img src="img/Colton.jpg" class="center" style="width: 350px;">
@@ -102,7 +114,7 @@
          </div>
          <br>
 
-         <h2  align="center">Graduate Students</h2>
+         <h2 id="students" align="center">Graduate Students</h2>
          <div class="center">
          <div class="row" align="center">
             <div class="col-md-6">
@@ -188,9 +200,6 @@
          <p  style="text-align:center">
             <b>Erika Jaski</b> (<a href="mailto:erikajaski@email.arizona.edu">erikajaski@email.arizona.edu</a>)<br>
             <b>Tony Guajardo</b> (<a href="mailto:aguajardo@email.arizona.edu">aguajardo@email.arizona.edu</a>)<br>
-
-            <!--a href="mailto:cll44@email.arizona.edu">?@email.arizona.edu</a><br--!>
-
          </p>
             <!--div class="col-md-6">
                <div class="thumbnail">
@@ -239,7 +248,7 @@
          </div>
          <br>
          <br><br><br><br>
-         <h4 align="center">Former Researchers</h4>
+         <h4 id="alumni" align="center">Former Researchers</h4>
          <p  style="text-align:center"><a href="https://robporritt.wordpress.com/">Rob Porritt</a>, now at University of Texas - Austin <br>
             Seda Yolsal, now at Istanbul Technical University<br>
             Linda Warren, now at Saint Louis University<br>
@@ -252,7 +261,7 @@
          <p style="text-align:center">
             <a href="https://btbishopseismology.wordpress.com/">Brandon Bishop</a> (2018)<br>
             <a href="https://rockingryan.wordpress.com/">James Ryan</a> (2018)<br>
-            Kevin Ward (2016), now at South Dakota School of Mines & Technology<br>
+            <a href="https://webpages.sdsmt.edu/~kward">Kevin Ward</a> (2016), now at South Dakota School of Mines & Technology<br>
             <a href="https://jrdelph.wordpress.com/">Jonathan Delph</a> (2016), now at Rice University<br>
             Alissa Scire (2014), now at the Passcal Instrument Center<br>
             Austin Holland (2014), now at the Oklahoma Geological Survey<br>
